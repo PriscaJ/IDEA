@@ -1,0 +1,190 @@
+.jumbotron {
+  color: white;
+  background-image:url("https://i.ibb.co/CzXd6jx/hero-image-3x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 318.5px;
+  position: relative;
+}
+.jumbotron h1{
+  font-family: CeraPRO;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.jumbotron p {
+  max-width: 220.5px;
+  font-family: Lora;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.Sign-in-Button {
+  background-color: #af5010 !important;
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.btn-xs {
+  padding: 1px 6px;
+}
+.idea-logo {
+  width: 70px;
+  height: 32.5px;
+  object-fit: contain;
+}
+.menu a {
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.nav-links {
+  margin-left: 55vh;
+}
+
+.about-us-summary {
+  background-color: #f0f3f7;
+}
+.get-involved {
+  background-color: #f0f3f7;
+}
+.Photo-1 {
+  width: 228.8px;
+  height: 157.9px;
+  object-fit: contain;
+}
+.Photo-2 {
+  width: 228.8px;
+  height: 157.9px;
+  object-fit: contain;
+}
+.media-body h1 {
+  font-family: CeraPRO;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+.media-body p {
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+.intro {
+  max-width: 400px;
+}
+h1 {
+  font-family: CeraPRO;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+  margin-top: 20px;
+}
+p {
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+.impact img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.impact h5 {
+  font-family: CeraPRO;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.84;
+  letter-spacing: normal;
+  text-align: center;
+  color: #114058;
+}
+.impact p {
+  font-family: Lora;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: center;
+  color: #114058;
+}
+.grey {
+  background-color: #114058 !important;
+  font-size: 11px;
+  margin-bottom: 30px;
+}
+.get-involved-content {
+  padding-top: 30px;
+}
+.get-involved-content h1{
+  margin-bottom: 0;
+}
+.past-work-content h1{
+  margin-bottom: 0;
+}
+.Photo-4 {
+  width: 296.5px;
+  height: 203px;
+  object-fit: contain;
+}
+
+.bg-dark{
+  transition: 500ms eases;
+  background: transparent !important;
+}
+.fixed-top.scrolled {
+  background-color: #14ffb2 !important;
+  transition: background-color 200ms linear;
+}
+

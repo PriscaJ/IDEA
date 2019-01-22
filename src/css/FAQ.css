@@ -1,0 +1,64 @@
+.intro {
+  background-color: #f0f3f7;
+  min-width: 300px;
+}
+.card-header {
+  background-color: white;
+  margin-bottom: 0;
+}
+.card-header h1 {
+  font-family: CeraPRO;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+
+.card-body h1 {
+  font-family: CeraPRO;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+.card-body p {
+  max-width: 530px;
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+.Asset-1 {
+  width: 131.6px;
+  height: 126.7px;
+  object-fit: contain;
+}
+
+#cross1 {
+  position: absolute;
+  margin-top: 100px;
+  left:0;
+}
+#cross2 {
+  position: absolute;
+  margin-top: 300px;
+  right:0;
+}
+#cross3 {
+  position: absolute;
+  margin-top: 600px;
+  left:0;
+}

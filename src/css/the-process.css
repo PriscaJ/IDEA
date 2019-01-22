@@ -1,0 +1,252 @@
+h5 {
+  font-family: Lora;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+.to_do_list {
+  width: 91.4px;
+  height: 123.4px;
+  object-fit: contain;
+}
+.gears {
+  width: 228.8px;
+  height: 157.9px;
+  object-fit: contain;
+}
+.verified {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.media-body h1 {
+  font-family: CeraPRO;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+.media-body p {
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+  min-width: 270px;
+}
+.resources {
+  background-color: #f0f3f7;
+}
+h1 {
+  font-family: CeraPRO;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+  margin-top: 20px;
+}
+p {
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+.Asset-1 {
+  width: 131.6px;
+  height: 126.7px;
+  object-fit: contain;
+}
+#cross2 {
+  position: absolute;
+  margin-top: 10px;
+  right:0;
+}
+#cross3 {
+  position: absolute;
+  margin-top: 380px;
+  left:0;
+}
+.card-header {
+  background-color: white;
+  margin-bottom: 0;
+}
+.card-header h1, .media h1 {
+  font-family: CeraPRO;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+.card-body h1 {
+  font-family: Lora;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114159;
+}
+.card-body p {
+  max-width: 530px;
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+h2 {
+  font-family: Cera Pro;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top:20px;
+  justify-content: center;
+  text-align: center;
+}
+.hero-events {
+  color: white;
+  background-image:url("https://i.ibb.co/524sfvy/adult-bar-brainstorming-1015568-3x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+.hero-events > .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #03367a;
+  z-index: 1;
+  opacity: 0.3;
+}
+.hero-events > .inner {
+  position: relative;
+  z-index: 2;
+}
+
+.Photo {
+  width: 228.8px;
+  height: 157.9px;
+  object-fit: contain;
+}
+.stack > .cross4 {
+  position: absolute;
+  z-index:1;
+  right: 36px;
+  top: 1535px;
+}
+.stack > .nexpo-photo {
+  position: relative;
+  z-index:2;
+}
+
+
+.hero {
+  color: white;
+  background-image:url("https://i.ibb.co/jW7jMyB/mask-group-1-3x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 318.5px;
+  position: relative;
+}
+.hero h1{
+  font-family: CeraPRO;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.hero p {
+  max-width: 220.5px;
+  font-family: Lora;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.Sign-in-Button {
+  background-color: #af5010 !important;
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.btn-xs {
+  padding: 1px 6px;
+}
+.idea-logo {
+  width: 70px;
+  height: 32.5px;
+  object-fit: contain;
+}
+.menu a {
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.nav-links {
+  margin-left: 55vh;
+}
