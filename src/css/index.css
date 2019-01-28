@@ -179,7 +179,7 @@ p {
   object-fit: contain;
 }
 
-.bg-dark{
+.fixed-top{
   transition: 500ms eases;
   background: transparent !important;
 }
