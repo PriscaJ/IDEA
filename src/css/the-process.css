@@ -1,3 +1,6 @@
+.inner{
+  margin-top: 100px;
+}
 h5 {
   font-family: Lora;
   font-size: 14px;
@@ -183,11 +186,11 @@ h2 {
 
 .hero {
   color: white;
-  background-image:url("https://i.ibb.co/jW7jMyB/mask-group-1-3x.png");
+  background-image:url("https://i.ibb.co/GkdRj11/mask-group-1-3x.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 318.5px;
+  height: 400px;
   position: relative;
 }
 .hero h1{

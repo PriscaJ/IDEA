@@ -8,7 +8,7 @@
   <meta name="author" content="">
   <link rel="icon" href="../../../../favicon.ico">
 
-  <title>IDEA Portfolio</title>
+  <title>Portfolio</title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -18,16 +18,65 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/Portfolio.css">
+  <link rel="stylesheet" href="../css/Portfolio.css">
 </head>
 
 <body>
+<nav class="navbar navbar-expand-sm fixed-top pt-0">
+  <a class="navbar-brand " href="#">
+    <img src="https://i.ibb.co/yBYNpj6/mask-group-14-3x.png" class="idea-logo">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse menu pt-1" id="navbarTogglerDemo02">
+    <ul class="navbar-nav nav-links">
+      <li class="nav-item">
+        <a class="nav-link" href="#">The process</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Get Started</a>
+      </li>
+      <li class="nav-item ml-2">
+        <button type="button" class="btn btn-xs Sign-in-Button rounded-0 text-white">Sign in</button>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+<div class="jumbotron jumbotron-fluid mb-0">
+  <div class="inner ml-4  pt-4">
+    <h1>Portfolio</h1>
+    <p>We’ve successfully launched over 40 new ventures
+      with our program. Check them out below!</p>
+  </div>
+</div>
 
 <div class="intro">
-  <img src="img/asset-1@3x.png" class="Asset-1" id="cross1">
-  <img src="img/asset-1@3x.png" class="Asset-1" id="cross2">
-  <img src="img/asset-1@3x.png" class="Asset-1" id="cross3">
-  <div class="ventures">
+  <div class="container pt-3">
+    <div class="card mx-auto" id="slate">
+      <img class="card-img-top" src="https://i.ibb.co/ZcMgjX7/5c3281db7569f55a25fd965a-manny-josh.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Slate</h5>
+        <p class="card-text">After years of waiting for a ‘modern’ chocolate milk to hit the market,
+          we decided to take action - and fix everything wrong with this classic, naturally protein-rich category. Because like you, we’re trying to be a little bit healthier everyday, yet we still have a constant craving for something sweet. That’s why we’ve created slate, a better, healthier, more convenient line of delicious chocolate milks.</p>
+      </div>
+    </div>
+  </div>
+
+  <img src="../img/asset-1@3x.png" class="Asset-1" id="cross1">
+  <img src="../img/asset-1@3x.png" class="Asset-1" id="cross2">
+  <img src="../img/asset-1@3x.png" class="Asset-1" id="cross3">
+
+
+
+  <div class="ventures py-4">
     <div class="row mb-3 text-center">
       <div class="modal fade" id="mobelPixel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
@@ -182,6 +231,406 @@
       <div class="col mx-0">
         <div class="card my-3 mx-auto shadow" data-toggle="modal" data-target="#handleBar">
           <img src="https://i.ibb.co/2cRfb4x/group-62-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3 text-center">
+      <div class="modal fade" id="blur" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="img/blurr@3x.pn" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>Mavrck</h1>
+                <p>
+                  The Mavrck influencer marketing platform provides end-to-end relationship management,
+                  workflow automation, and measurement for integrated influencer, advocacy, referral, and loyalty
+                  marketing programs at scale that benefit multiple touchpoints and marketing functions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="modal fade" id="amino" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="img/amino@3x.png" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>Eat Your Coffee</h1>
+                <p>
+                  Eat Your Coffee is on a mission to help people get energized and get more done with
+                  naturally-caffeinated snacks made with real, ethically-sourced ingredients. Every Eat Your Coffee Bar
+                  is caffeinated with a full cup of Fair Trade coffee and made with real foods so you can feel good with
+                  every energizing bite.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="modal fade" id="maple" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="https://i.ibb.co/2tdLpJv/HB-holidays.png" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>The Handle Bar</h1>
+                <p>
+                  The Handle Bar is an indoor cycling chain located in metro Boston. Their studios are located in South
+                  Boston, Fenway, and Harvard Square.Music driven, low lit classes create an intoxicating environment
+                  that has proven addicting and transformative for our beloved rider community.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+
+      <div class="col mx-0">
+        <div class="card my-3 shadow mx-auto" data-toggle="modal" data-target="#mavrck">
+          <img src="https://i.ibb.co/QCPdxtw/blurr-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+      <div class="col mx-0" >
+        <div class="card my-3 mx-auto shadow" data-toggle="modal" data-target="#holobiome">
+          <img src="https://i.ibb.co/jwSh0Mp/amino-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+      <div class="col mx-0">
+        <div class="card my-3 mx-auto shadow" data-toggle="modal" data-target="#handleBar">
+          <img src="https://i.ibb.co/Kbtk2Tp/group-127-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3 text-center">
+      <div class="modal fade" id="tablest" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="img/blurr@3x.pn" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>Mavrck</h1>
+                <p>
+                  The Mavrck influencer marketing platform provides end-to-end relationship management,
+                  workflow automation, and measurement for integrated influencer, advocacy, referral, and loyalty
+                  marketing programs at scale that benefit multiple touchpoints and marketing functions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="modal fade" id="jobble" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="img/amino@3x.png" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>Eat Your Coffee</h1>
+                <p>
+                  Eat Your Coffee is on a mission to help people get energized and get more done with
+                  naturally-caffeinated snacks made with real, ethically-sourced ingredients. Every Eat Your Coffee Bar
+                  is caffeinated with a full cup of Fair Trade coffee and made with real foods so you can feel good with
+                  every energizing bite.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="modal fade" id="whale" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="https://i.ibb.co/2tdLpJv/HB-holidays.png" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>The Handle Bar</h1>
+                <p>
+                  The Handle Bar is an indoor cycling chain located in metro Boston. Their studios are located in South
+                  Boston, Fenway, and Harvard Square.Music driven, low lit classes create an intoxicating environment
+                  that has proven addicting and transformative for our beloved rider community.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+
+      <div class="col mx-0">
+        <div class="card my-3 shadow mx-auto" data-toggle="modal" data-target="#mavrck">
+          <img src="https://i.ibb.co/sgYdGmL/416660-8fb5c099cbc5a45eed49bbca66c6ca54-medium-jpg.jpg" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+      <div class="col mx-0" >
+        <div class="card my-3 mx-auto shadow" data-toggle="modal" data-target="#holobiome">
+          <img src="https://i.ibb.co/XWgM3pz/jobble-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+      <div class="col mx-0">
+        <div class="card my-3 mx-auto shadow" data-toggle="modal" data-target="#handleBar">
+          <img src="https://i.ibb.co/p01TxD0/waylz-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3 text-center">
+      <div class="modal fade" id="linkSquares" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="img/blurr@3x.pn" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>Mavrck</h1>
+                <p>
+                  The Mavrck influencer marketing platform provides end-to-end relationship management,
+                  workflow automation, and measurement for integrated influencer, advocacy, referral, and loyalty
+                  marketing programs at scale that benefit multiple touchpoints and marketing functions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="modal fade" id="crystal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="img/amino@3x.png" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>Eat Your Coffee</h1>
+                <p>
+                  Eat Your Coffee is on a mission to help people get energized and get more done with
+                  naturally-caffeinated snacks made with real, ethically-sourced ingredients. Every Eat Your Coffee Bar
+                  is caffeinated with a full cup of Fair Trade coffee and made with real foods so you can feel good with
+                  every energizing bite.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="modal fade" id="3DFortify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="https://i.ibb.co/2tdLpJv/HB-holidays.png" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>The Handle Bar</h1>
+                <p>
+                  The Handle Bar is an indoor cycling chain located in metro Boston. Their studios are located in South
+                  Boston, Fenway, and Harvard Square.Music driven, low lit classes create an intoxicating environment
+                  that has proven addicting and transformative for our beloved rider community.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+
+      <div class="col mx-0">
+        <div class="card my-3 shadow mx-auto" data-toggle="modal" data-target="#mavrck">
+          <img src="https://i.ibb.co/HhQmhXf/link-squares-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+      <div class="col mx-0" >
+        <div class="card my-3 mx-auto shadow" data-toggle="modal" data-target="#holobiome">
+          <img src="https://i.ibb.co/mrst07g/group-59-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+      <div class="col mx-0">
+        <div class="card my-3 mx-auto shadow" data-toggle="modal" data-target="#handleBar">
+          <img src="https://i.ibb.co/GtfT1M5/group-60-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3 text-center">
+      <div class="modal fade" id="MatchUpBox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="img/blurr@3x.pn" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>Mavrck</h1>
+                <p>
+                  The Mavrck influencer marketing platform provides end-to-end relationship management,
+                  workflow automation, and measurement for integrated influencer, advocacy, referral, and loyalty
+                  marketing programs at scale that benefit multiple touchpoints and marketing functions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="modal fade" id="Esportudo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="img/amino@3x.png" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>Eat Your Coffee</h1>
+                <p>
+                  Eat Your Coffee is on a mission to help people get energized and get more done with
+                  naturally-caffeinated snacks made with real, ethically-sourced ingredients. Every Eat Your Coffee Bar
+                  is caffeinated with a full cup of Fair Trade coffee and made with real foods so you can feel good with
+                  every energizing bite.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="modal fade" id="Noble" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="https://i.ibb.co/2tdLpJv/HB-holidays.png" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>The Handle Bar</h1>
+                <p>
+                  The Handle Bar is an indoor cycling chain located in metro Boston. Their studios are located in South
+                  Boston, Fenway, and Harvard Square.Music driven, low lit classes create an intoxicating environment
+                  that has proven addicting and transformative for our beloved rider community.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+
+      <div class="col mx-0">
+        <div class="card my-3 shadow mx-auto" data-toggle="modal" data-target="#mavrck">
+          <img src="https://i.ibb.co/4fhbMG3/match-up-box-1-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+      <div class="col mx-0" >
+        <div class="card my-3 mx-auto shadow" data-toggle="modal" data-target="#holobiome">
+          <img src="https://i.ibb.co/sj8JBbp/esportudo-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+      <div class="col mx-0">
+        <div class="card my-3 mx-auto shadow" data-toggle="modal" data-target="#handleBar">
+          <img src="https://i.ibb.co/v3NnMww/noble-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3 text-center">
+      <div class="modal fade" id="everydaySpeech" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="img/blurr@3x.pn" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>Mavrck</h1>
+                <p>
+                  The Mavrck influencer marketing platform provides end-to-end relationship management,
+                  workflow automation, and measurement for integrated influencer, advocacy, referral, and loyalty
+                  marketing programs at scale that benefit multiple touchpoints and marketing functions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="modal fade" id="skreen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="img/amino@3x.png" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>Eat Your Coffee</h1>
+                <p>
+                  Eat Your Coffee is on a mission to help people get energized and get more done with
+                  naturally-caffeinated snacks made with real, ethically-sourced ingredients. Every Eat Your Coffee Bar
+                  is caffeinated with a full cup of Fair Trade coffee and made with real foods so you can feel good with
+                  every energizing bite.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="modal fade" id="blistabloc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+              <img src="https://i.ibb.co/2tdLpJv/HB-holidays.png" class="venture-pix my-2" border="0">
+              <div class="container">
+                <h1>The Handle Bar</h1>
+                <p>
+                  The Handle Bar is an indoor cycling chain located in metro Boston. Their studios are located in South
+                  Boston, Fenway, and Harvard Square.Music driven, low lit classes create an intoxicating environment
+                  that has proven addicting and transformative for our beloved rider community.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+
+      <div class="col mx-0">
+        <div class="card my-3 shadow mx-auto" data-toggle="modal" data-target="#mavrck">
+          <img src="https://i.ibb.co/0scKMdD/everyday-speech-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+      <div class="col mx-0" >
+        <div class="card my-3 mx-auto shadow" data-toggle="modal" data-target="#holobiome">
+          <img src="https://i.ibb.co/1LfpN1n/skreens-3x.png" class="card-img logo mx-auto my-auto">
+        </div>
+      </div>
+      <div class="col mx-0">
+        <div class="card my-3 mx-auto shadow" data-toggle="modal" data-target="#handleBar">
+          <img src="https://i.ibb.co/wR9KRz8/blistabloc-icon.jpg" class="card-img logo mx-auto my-auto">
         </div>
       </div>
     </div>

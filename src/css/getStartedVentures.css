@@ -1,0 +1,201 @@
+.inner {
+  margin-top: 140px;
+}
+#cross2 {
+  position: absolute;
+  margin-top: 150px;
+  right:-50px;
+  width: 131.6px;
+  height: 126.7px;
+  object-fit: contain;
+}
+.jumbotron {
+  color: white;
+  background-image:url("https://i.ibb.co/fn5g3bk/mask-group-1-3x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+.jumbotron h1{
+  font-family: CeraPRO;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.jumbotron p {
+  font-family: Lora;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.Sign-in-Button {
+  background-color: #af5010 !important;
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.btn-xs {
+  padding: 1px 6px;
+}
+.idea-logo {
+  width: 70px;
+  height: 32.5px;
+  object-fit: contain;
+}
+.menu a {
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.nav-links {
+  margin-left: 55vh;
+}
+
+
+
+
+
+.get-started {
+  background-color: #f0f3f7;
+}
+
+.calendar {
+  width:90px;
+  height:90px;
+  object-fit: contain;
+}
+
+.apply-btn {
+  width: 60px;
+  height: 34px;
+  background-color: #af5010;
+  object-fit: contain;
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.btn-xs {
+  padding: 1px 6px;
+}
+
+
+
+
+
+
+.intro {
+  max-width: 400px;
+}
+h2 {
+  font-family: Cera Pro;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+h1 {
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+p {
+  max-width: 397px;
+  font-family: Cera Pro;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+.impact img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.impact h5 {
+  font-family: CeraPRO;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.84;
+  letter-spacing: normal;
+  text-align: center;
+  color: #114058;
+}
+.impact p {
+  font-family: Lora;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: center;
+  color: #114058;
+}
+.grey {
+  background-color: #114058 !important;
+  font-size: 11px;
+  margin-bottom: 30px;
+}
+.get-involved-content {
+  padding-top: 30px;
+}
+.get-involved-content h1{
+  margin-bottom: 0;
+}
+.past-work-content h1{
+  margin-bottom: 0;
+}
+.Photo-4 {
+  width: 296.5px;
+  height: 203px;
+  object-fit: contain;
+}
