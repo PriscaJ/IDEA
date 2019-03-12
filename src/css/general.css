@@ -1,0 +1,501 @@
+/*
+Theme Name: Wes is not good at this
+Theme URI:
+Author: Wes
+Description: This is wes' desparate attempt to implement Scout's design.
+*/
+
+/*********************************** header ***********************************/
+.idea-logo {
+  width: 100px;
+  height: 62.5px;
+  object-fit: contain;
+}
+
+.menu a {
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.menu-options li {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+/******************************* footer ***********************************/
+footer .gap-10 {
+  width: 100%;
+  height: 20px;
+}
+
+footer .links p {
+  font-weight: bold;
+}
+
+footer .footer-logo {
+  width: 80px;
+  height: 38.8px;
+  object-fit: contain;
+}
+
+footer .social {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+footer #subscribe {
+  background-color: #af5010 !important;
+  width: 84px;
+  height: 31px;
+  padding: 1px 9px;
+  color: white;
+}
+
+footer #email {
+  height: 31px;
+  width: 200px !important;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/************************************ general fonts **************************/
+/** blue buttons **/
+h1 {
+  font-family: Lato;
+  font-size: 64px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+
+h3 {
+  font-family: Lato;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+
+h4 {
+  font-family: Lora;
+  font-size: 26px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+
+p {
+  font-size: 21px;
+  font-weight: normal;
+  font-family: Lato;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #114058;
+  line-height: 1.27;
+  text-align: left;
+}
+
+.blue-button {
+  background-color: #114058 !important;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+.apply-button {
+  background-color: #af5010 !important;
+  font-size: 21px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.jumbotron .inner {
+  position: absolute;
+  bottom: 0;
+  margin-left: 5vw;
+  padding-bottom: 5vw;
+}
+.jumbotron {
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vw;
+  position: relative;
+}
+.jumbotron p {
+  font-family: Lora;
+  font-size: 25px;
+  font-style: italic;
+  line-height: 1.27;
+  color: #ffffff;
+}
+.grey-background {
+  background-color: #f0f3f7;
+}
+.orange-icon {
+  width: 233.1px;
+  height: 218.6px;
+  object-fit: contain;
+}
+/******************************* The front page *******************************/
+.index {
+  background-image: url("http://idea.local/wp-content/uploads/2019/02/home-hero.png");
+}
+.lab1, .lab2, .lab3 {
+  width: 500px;
+  height: 250px;
+  object-fit: contain;
+}
+.what-we-do p {
+  max-width: 750px;
+}
+.about-us-summary {
+  padding-bottom: 40px;
+
+}
+
+.impact .image-label h2 {
+  font-size: 40px;
+  line-height: 0.84;
+  text-align: center;
+}
+.impact {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.get-involved {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f0f3f7;
+}
+.get-involved-content {
+  padding-top: 30px;
+}
+.past-work {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.Photo-4 {
+  width: 496.5px;
+  height: 403px;
+  object-fit: contain;
+}
+
+/******************************* The process *******************************/
+.the-process-hero {
+  background-image: url("http://idea.local/wp-content/uploads/2019/02/the_process_hero.png");
+}
+.card-header.process {
+  background-color: #ffffff;
+  margin-bottom: 0;
+  cursor: pointer;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.card-body.process {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.hero-events {
+  color: white;
+  background-image: url("http://idea.local/wp-content/uploads/2019/02/events-hero-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vw;
+  position: relative;
+}
+
+.event-hero-title {
+  font-size: 40px;
+  letter-spacing: normal;
+  justify-content: center;
+  text-align: center;
+  margin-top: 12%;
+}
+
+.events-photo {
+  width: 428.8px;
+  height: 357.9px;
+  object-fit: contain;
+}
+
+.Asset-1 {
+  width: 251px;
+  height: 276.5px;
+  object-fit: contain;
+}
+
+.cross-left {
+  position: absolute;
+  margin-top: 10px;
+  right: 0;
+}
+
+.cross-right {
+  position: absolute;
+  margin-top: 380px;
+  left: 0;
+}
+
+/******************************* About Us *******************************/
+.about-us-hero {
+  background-image: url("https://i.ibb.co/cxn5xYP/about-us-Hero-Recovered.png");
+}
+.about-us .media {
+  max-width: 950px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about-us .title {
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+}
+
+.about-us .card-header {
+  background-color: white;
+  margin-bottom: 0;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.about-us .card-body img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.about-us .card-body {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#management-sum {
+  max-width: 40vw;
+}
+
+.about-us .checker {
+  width: 131.6px;
+  height: 126.7px;
+  object-fit: contain;
+}
+
+.about-us .checker1 {
+  position: absolute;
+  margin-top: 100px;
+  left: 0;
+}
+
+.about-us .checker2 {
+  position: absolute;
+  margin-top: 300px;
+  right: 0;
+}
+
+.about-us .checker3 {
+  position: absolute;
+  margin-top: 600px;
+  left: 0;
+}
+
+/******************************* Get Started *******************************/
+.get-started-hero {
+  background-image: url("http://idea.local/wp-content/uploads/2019/02/about-us-Hero.png");
+}
+
+.get-started {
+  background-color: #f0f3f7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.lecture-pic {
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+.briefCase {
+  margin-right: 20%;
+  margin-left: 10%;
+}
+
+.card-pic {
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+/**************************** Get Started Venture ****************************/
+.get-started-venture {
+  background-image: url("https://i.ibb.co/fn5g3bk/mask-group-1-3x.png");
+}
+
+/**************************** Get Started Coach ****************************/
+.get-started-coach-hero {
+  background-image: url("https://i.ibb.co/3B2NmKq/hero-get-started-coach.png");
+}
+.coach-ready-set {
+  background-color: #f0f3f7;
+}
+.coach-roles {
+  max-width: 800px;
+}
+.coach-detail {
+  max-width: 800px;
+  margin-left: 10%;
+}
+/**************************** Get Started Management****************************/
+.get-started-management {
+  background-image: url("https://i.ibb.co/3RS6mjD/mask-group-16-3x.png");
+}
+
+/******************************* FAQ *******************************/
+.faq {
+  background-image: url("https://i.ibb.co/vZCGtCV/mask-group-11-3x.png");
+}
+/******************************* Portfolio *******************************/
+.portfolio {
+  background-image: url("https://i.ibb.co/mFTqgDy/mask-group-9-3x.png");
+}
+
+.ventures .card {
+  width: 350px;
+  height: 350px;
+}
+
+.box9 {
+  background: #ffffff;
+  text-align: center;
+  position: relative
+}
+.box9 img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.box9:hover img {
+  opacity: .5
+}
+.box9 .box-content {
+  padding: 30px 20px 30px 20px;
+  background: rgba(0, 0, 0, .55);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0
+}
+.box9:hover .box-content {
+  opacity: 1
+}
+.box9 .title {
+  font-weight: 700;
+  color: #fff;
+  line-height: 17px;
+  position: absolute;
+  bottom: 55%
+}
+.box9 .description {
+  color: #fff;
+  font-size: 8px;
+  position: absolute;
+  bottom: 35%
+}
+.box10 .icon li a, .box9 .icon li a {
+  line-height: 35px;
+  border-radius: 50%
+}
+.box9 .icon {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 65%
+}
+.box9 .icon li {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(40px)
+}
+.box9:hover .icon li {
+  opacity: 1;
+  transform: translateY(0)
+}
+.box9:hover .icon li:first-child {
+  transition-delay: .1s
+}
+.box9:hover .icon li:nth-child(2) {
+  transition-delay: .2s
+}
+.box9 .icon li a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: #f39c12;
+  font-size: 20px;
+  color: #000;
+  margin-right: 5px;
+  transition: all .35s ease 0s
+}
+.box9 .icon a:hover {
+  background: #fff
+}
+@media only screen and (max-width: 990px) {
+  .box9 {
+    margin-bottom: 20px
+  }
+}

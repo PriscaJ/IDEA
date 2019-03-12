@@ -12,57 +12,36 @@
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/index.css">
-
+  <link rel="stylesheet" href="../css/general.css">
 </head>
 
 <body>
-<!--[if lte IE 9]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-  your browser</a> to improve your experience and security.</p>
-<![endif]-->
-
-<!-- Add your site or application content here -->
-<nav class="navbar navbar-expand-sm fixed-top pt-0">
-  <a class="navbar-brand " href="#">
+<nav class="navbar navbar-expand-sm fixed-top nav-default" >
+  <a class="navbar-brand container" href="#">
     <img src="https://i.ibb.co/yBYNpj6/mask-group-14-3x.png" class="idea-logo">
   </a>
-
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-  <div class="collapse navbar-collapse menu pt-1" id="navbarTogglerDemo02">
-    <ul class="navbar-nav nav-links">
-      <li class="nav-item">
-        <a class="nav-link" href="#">The process</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Get Started</a>
-      </li>
-      <li class="nav-item ml-2">
-        <button type="button" class="btn btn-xs Sign-in-Button rounded-0 text-white">Sign in</button>
-      </li>
-    </ul>
+  <div class="collapse navbar-collapse menu pt-1 container" id="navbarTogglerDemo02">
+    <div class="ml-auto menu-options">
+      <ul class="navbar-nav nav-links ml-auto">The processs</ul>
+    </div>
   </div>
-
 </nav>
-<div class="jumbotron jumbotron-fluid mb-0">
-  <div class="inner ml-4 mt-5 pt-4">
+<div class="jumbotron jumbotron-fluid mb-0 index">
+  <div class="inner">
     <h1>IDEA</h1>
     <p>We are Northeastern's student-led venture accelerator</p>
   </div>
 </div>
 
-<div class="about-us-summary">
-  <div class="container content">
-    <div class="intro pt-2">
-      <div>
-        <h1>What We Do</h1>
+<div class="about-us-summary grey-background">
+  <div class="container">
+    <div class="what-we-do py-4">
+      <div class="my-5">
+        <h2 class="title">What We Do</h2>
         <p>
           IDEA is a student-led venture accelerator that fosters the development of
           entrepreneurs in the Northeastern community through the educational experience
@@ -72,70 +51,67 @@
         </p>
       </div>
     </div>
-
-    <div class="media">
-      <img src="../img/photo-1@3x.png" class="Photo-1 mr-5">
-      <div class="media-body align-self-center">
-        <h1>Bridging the Gap</h1>
-        <p>
-          IDEA Gap Funding is an educational grant to help young entrepreneurs
-          to build their businesses.
-        </p>
+    <div class="row what-we-do other py-4">
+      <div class="col-md-6">
+        <img style='  width: 380px; height: 250px;' src="http://idea.local/wp-content/uploads/2019/02/lab1.png" />
+      </div>
+      <div class="col-md-6 align-self-center">
+        <h3>Bridging the Gap</h3>
+        <p>IDEA Gap Funding is an educational grant to help young entrepreneurs
+          to build their businesses.</p>
       </div>
     </div>
-
-
-    <div class="media">
-      <div class="media-body align-self-center mr-5">
-        <h1>Failure is a part of the process</h1>
-        <p>
-          Our program supports testing and iterating that’s necessary for an
-          early-stage concept to develop.
-        </p>
+    <div class="row what-we-do other py-4">
+      <div class="col-md-6 align-self-center pr-5">
+        <h3>Failure is a part of the process</h3>
+        <p>Our program supports testing and iterating that’s necessary for an
+          early-stage concept to develop.</p>
       </div>
-      <img src="../img/photo-2@3x.png" class="Photo-2">
+      <div class="col-md-6 text-right pl-5">
+        <img style='width: 380px; height: 250px;' src="http://idea.local/wp-content/uploads/2019/02/lab2.png" />
+      </div>
     </div>
-
-    <div class="media pb-4">
-      <img src="../img/photo-3@3x.png" class="Photo-1 mr-5">
-      <div class="media-body align-self-center">
-        <h1>Not just for students</h1>
-        <p>
-          We welcome all Northeastern founders including
+    <div class="row what-we-do other py-4" >
+      <div class="col-md-6">
+        <img style='  width: 380px; height: 250px;' src="http://idea.local/wp-content/uploads/2019/02/lab3.png" />
+      </div>
+      <div class="col-md-6 align-self-center">
+        <h3>Not just for students</h3>
+        <p>We welcome all Northeastern founders including
           undergraduates, Master’s students, PhD students,
-          alumni, faculty, and staff.
-        </p>
+          alumni, faculty, and staff.</p>
       </div>
     </div>
+
   </div>
 </div>
 
 <div class="impact container">
-  <h1>Our Impact</h1>
+  <h2>Our Impact</h2>
   <div class="impact-content">
     <div class="row mb-3">
       <div class="col gallery mx-3 text-center">
         <a target="_blank" href="fjords.png">
-          <img src="../img/orange-lightbulb@3x.png" class="orange-lightbulb">
+          <img src="http://idea.local/wp-content/uploads/2019/02/lightbulb.png" class="orange-icon">
         </a>
-        <h5 class="text-center mt-2 mb-0">400 +</h5>
-        <p class="text-center ">Current Ventures</p>
+        <h2 class="image-label text-center mb-0">400 +</h2>
+        <h4 class="text-center ">Current Ventures</h4>
       </div>
 
       <div class="col gallery mx-3 text-center">
         <a target="_blank" href="fjords.png">
-          <img src="../img/orange-money-bag@3x.png" class="orange-money_bag">
+          <img src="http://idea.local/wp-content/uploads/2019/02/money.png" class="orange-icon">
         </a>
-        <h5 class="text-center mt-2 mb-0">$133 M</h5>
-        <p class="text-center ">External funding raised</p>
+        <h2 class="image-label text-center mb-0">$133 M</h2>
+        <h4 class="text-center ">External funding raised</h4>
       </div>
 
       <div class="col gallery mx-3 text-center">
         <a target="_blank" href="fjords.jpg">
-          <img src="../img/orange-launched-rocket@3x.png" class="orange-launched_rocket">
+          <img src="http://idea.local/wp-content/uploads/2019/02/rocket.png" class="orange-icon">
         </a>
-        <h5 class="text-center mt-2 mb-0">52</h5>
-        <p class="text-center ">Launched Ventures</p>
+        <h2 class="image-label text-center mb-0">52</h2>
+        <h4 class="text-center ">Launched Ventures</h4>
       </div>
     </div>
   </div>
@@ -143,33 +119,39 @@
 
 <div class="get-involved ">
   <div class="container get-involved-content text-center">
-    <h1 class="text-center">Want to Get Involved?</h1>
+    <h2 class="text-center">Want to Get Involved?</h2>
     <p class="text-center">Apply to be a venture or join our management team!</p>
-    <button type="button" class="btn grey btn-dark rounded-0">Get Involved</button>
+    <button type="button" class="btn blue-button btn-dark rounded-0">Get Involved</button>
   </div>
 </div>
 
 <div class="past-work">
   <div class="container past-work-content text-center">
-    <h1 class="text-center">Check out our past work!</h1>
+    <h2 class="text-center">Check out our past work!</h2>
     <p class="text-center">See what we have created with our ventures</p>
-    <img src="../img/photo-4@3x.png" class="Photo-4 mx-auto d-block mb-2">
+    <img src="http://idea.local/wp-content/uploads/2019/02/past-work.png" class="Photo-4 mx-auto d-block">
 
     <div class="row">
       <div class="col text-center">
-        <button type="button" class="btn grey btn-dark rounded-0">View More</button>
+        <button type="button" class="btn blue-button btn-dark rounded-0">View More</button>
       </div>
     </div>
   </div>
 </div>
 
 <script>
-  $(function () {
-    $(document).scroll(function () {
-      let $nav = $(".navbar-fixed-top");
-      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-    });
-  });
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      var scroll = $(window).scrollTop();
+      if (scroll > 900) {
+        $(".navbar").css("background-color" , "#114058");
+      }
+
+      else{
+        $(".navbar").css("background-color" , "transparent");
+      }
+    })
+  })
 </script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

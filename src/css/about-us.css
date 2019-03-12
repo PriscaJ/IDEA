@@ -81,13 +81,13 @@
 
 
 
-.chat {
+.about-us .chat {
   width: 141.9px;
   height: 91.8px;
   object-fit: contain;
 }
-
-.media {
+.about-us .media {
+  max-width: 650px;
   margin-top: 21px;
   margin-bottom: 21px;
   font-family: Cera Pro;
@@ -100,13 +100,11 @@
   text-align: left;
   color: #114058;
 }
-
-.intro {
+.about-us.profiles {
   background-color: #f0f3f7;
   min-width: 300px;
 }
-
-h1 {
+.about-us h1 {
   font-family: CeraPRO;
   font-size: 14.5px;
   font-weight: bold;
@@ -117,9 +115,7 @@ h1 {
   text-align: left;
   color: #114058;
 }
-
-
-p {
+.about-us p {
   font-family: Cera Pro;
   font-size: 11px;
   font-weight: normal;
@@ -130,22 +126,7 @@ p {
   text-align: left;
   color: #114058;
 }
-
-.card-header {
-  background-color: white;
-  margin-bottom: 0;
-}
-.roster {
-  margin-bottom: 160px;
-}
-
-.card-body img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-}
-
-.card-body h5 {
+.about-us .name {
   font-family: Lora;
   font-size: 11px;
   font-weight: normal;
@@ -156,19 +137,7 @@ p {
   text-align: center;
   color: #114058;
 }
-#management-sum {
-  max-width: 321.5px;
-  font-family: Cera Pro;
-  font-size: 11px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  letter-spacing: normal;
-  text-align: left;
-  color: #114058;
-}
-.card-body p {
+.about-us .title {
   font-family: Cera Pro;
   font-size: 9px;
   font-weight: 300;
@@ -179,26 +148,38 @@ p {
   text-align: center;
   color: #114058;
 }
-.Asset-1 {
+.about-us .card-header {
+  background-color: white;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.about-us .card-body img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.card.about-us{
+  width: 80vw;
+}
+#management-sum {
+  max-width: 30vw;
+}
+.about-us .checker {
   width: 131.6px;
   height: 126.7px;
   object-fit: contain;
 }
-.card{
-  width: 90vh;
-}
-
-#cross1 {
+.about-us .checker1  {
   position: absolute;
   margin-top: 100px;
   left:0;
 }
-#cross2 {
+.about-us .checker2  {
    position: absolute;
    margin-top: 300px;
    right:0;
  }
-#cross3 {
+.about-us .checker3 {
   position: absolute;
   margin-top: 600px;
   left:0;
