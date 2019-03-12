@@ -82,24 +82,22 @@
 .get-started {
   background-color: #f0f3f7;
 }
-.Photo-1 {
+.lecture-pic {
   width: 110px;
   height: 80.9px;
   object-fit: contain;
 }
-
 .briefCase {
   width: 110px;
   height: 87.3px;
   object-fit: contain;
 }
-
-.Photo-2 {
+.card-pic {
   width: 110px;
   height: 87.3px;
   object-fit: contain;
 }
-.media-body h1 {
+.get-started h1 {
   font-family: CeraPRO;
   font-size: 16px;
   font-weight: bold;
@@ -110,7 +108,7 @@
   text-align: left;
   color: #114058;
 }
-.media-body p {
+.get-started p {
   width: 280px;
   font-family: CeraPRO;
   font-size: 11px;
@@ -122,8 +120,7 @@
   text-align: left;
   color: #114058;
 }
-
-.learn-btn {
+.get-started.learn-btn {
   width: 78px;
   height: 34px;
   object-fit: contain;
@@ -138,87 +135,17 @@
   text-align: center;
   color: #ffffff;
 }
-.btn-xs {
-  padding: 1px 6px;
-}
-
-.media {
+.get-started .media {
   max-width: 500px;
 }
 
 
+.btn-xs {
+  padding: 1px 6px;
+}
 
 
 
-.intro {
-  max-width: 400px;
-}
-h1 {
-  font-family: CeraPRO;
-  font-size: 21px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  letter-spacing: normal;
-  text-align: left;
-  color: #114058;
-  margin-top: 20px;
-}
-p {
-  font-family: CeraPRO;
-  font-size: 11px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: normal;
-  text-align: left;
-  color: #114058;
-}
-.impact img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-}
-.impact h5 {
-  font-family: CeraPRO;
-  font-size: 25px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.84;
-  letter-spacing: normal;
-  text-align: center;
-  color: #114058;
-}
-.impact p {
-  font-family: Lora;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: italic;
-  font-stretch: normal;
-  line-height: 1.21;
-  letter-spacing: normal;
-  text-align: center;
-  color: #114058;
-}
-.grey {
-  background-color: #114058 !important;
-  font-size: 11px;
-  margin-bottom: 30px;
-}
-.get-involved-content {
-  padding-top: 30px;
-}
-.get-involved-content h1{
-  margin-bottom: 0;
-}
-.past-work-content h1{
-  margin-bottom: 0;
-}
-.Photo-4 {
-  width: 296.5px;
-  height: 203px;
-  object-fit: contain;
-}
+
+
+

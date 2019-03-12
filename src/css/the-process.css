@@ -1,13 +1,49 @@
-.inner{
-  margin-top: 100px;
-}
-h5 {
+
+.process h5 {
   font-family: Lora;
   font-size: 14px;
   font-weight: normal;
   font-style: italic;
   font-stretch: normal;
   line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+}
+.process h1 {
+  font-family: CeraPRO;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114058;
+  margin-top: 20px;
+}
+.content.process {
+  max-width: 600px;
+}
+.event-hero-title {
+  font-family: Cera Pro;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+}
+.process p {
+  font-family: CeraPRO;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
   letter-spacing: normal;
   text-align: left;
   color: #114058;
@@ -27,55 +63,31 @@ h5 {
   height: 100px;
   object-fit: contain;
 }
-.media-body h1 {
-  font-family: CeraPRO;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.44;
-  letter-spacing: normal;
-  text-align: left;
-  color: #114058;
-}
-.media-body p {
-  font-family: CeraPRO;
-  font-size: 11px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: normal;
-  text-align: left;
-  color: #114058;
-  min-width: 270px;
-}
-.resources {
+.process.resources {
   background-color: #f0f3f7;
 }
-h1 {
-  font-family: CeraPRO;
-  font-size: 21px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  letter-spacing: normal;
-  text-align: left;
-  color: #114058;
-  margin-top: 20px;
+.card-header.process{
+  background-color: #ffffff;
+  margin-bottom: 0;
 }
-p {
-  font-family: CeraPRO;
-  font-size: 11px;
+.card-body.process h1 {
+  font-family: Lora;
+  font-size: 14px;
   font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: normal;
+  font-style: italic;
+  line-height: 1.32;
   text-align: left;
-  color: #114058;
 }
+.card-body.process p {
+  max-width: 530px;
+}
+.card.process {
+  max-width: 600px;
+}
+.card-header.process h1 {
+  font-size: 16px;
+}
+
 .Asset-1 {
   width: 131.6px;
   height: 126.7px;
@@ -91,57 +103,15 @@ p {
   margin-top: 380px;
   left:0;
 }
-.card-header {
-  background-color: white;
-  margin-bottom: 0;
-}
-.card-header h1, .media h1 {
-  font-family: CeraPRO;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.44;
-  letter-spacing: normal;
-  text-align: left;
-  color: #114058;
-}
-.card-body h1 {
-  font-family: Lora;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: italic;
-  font-stretch: normal;
-  line-height: 1.32;
-  letter-spacing: normal;
-  text-align: left;
-  color: #114159;
-}
-.card-body p {
-  max-width: 530px;
-  font-family: CeraPRO;
-  font-size: 11px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: normal;
-  text-align: left;
-  color: #114058;
-}
-h2 {
-  font-family: Cera Pro;
-  font-size: 21px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  letter-spacing: normal;
-  color: #ffffff;
-  margin-top:20px;
-  justify-content: center;
-  text-align: center;
-}
+
+
+
+
+
+
+
+
+
 .hero-events {
   color: white;
   background-image:url("https://i.ibb.co/524sfvy/adult-bar-brainstorming-1015568-3x.png");
@@ -182,6 +152,13 @@ h2 {
   position: relative;
   z-index:2;
 }
+
+
+
+
+
+
+
 
 
 .hero {

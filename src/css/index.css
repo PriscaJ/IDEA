@@ -4,7 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 318.5px;
+  height: 45vw;
   position: relative;
 }
 .jumbotron h1{
@@ -17,6 +17,8 @@
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+  margin-top: 25vw;
+  margin-left:6%;
 }
 .jumbotron p {
   max-width: 220.5px;
@@ -29,6 +31,8 @@
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+  margin-top:1%;
+  margin-left:6%;
 }
 .Sign-in-Button {
   background-color: #af5010 !important;
@@ -64,9 +68,14 @@
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-.nav-links {
-  margin-left: 55vh;
-}
+
+
+
+
+
+
+
+
 
 .about-us-summary {
   background-color: #f0f3f7;
